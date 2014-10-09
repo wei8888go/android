@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@android:id/tabhost"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical">
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0"
+                android:visibility="gone" />
+        <RadioGroup
+                android:id="@+id/main_radiogp" style="@style/main_radioGroup">
+            <RadioButton style="@style/main_radioButton" android:text="推荐"
+                         android:drawableTop="@drawable/main_tab_recommend"/>
+            <RadioButton style="@style/main_radioButton" android:text="分类" android:drawableTop="@drawable/main_tab_app"/>
+            <RadioButton style="@style/main_radioButton" android:text="排行榜" android:drawableTop="@drawable/main_tab_rank"/>
+            <RadioButton style="@style/main_radioButton" android:text="更多" android:drawableTop="@drawable/main_tab_management"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</TabHost>

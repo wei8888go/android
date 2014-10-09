@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pw.apkmarket"
+          android:versionCode="1"
+          android:versionName="1.0.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="14"/>
+    <application android:label="@string/app_name" android:icon="@drawable/icon"
+            android:name=".app.MyApplication" android:theme="@style/defaultTheme">
+        <activity android:name=".view.Splash" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.Recommend"/>
+        <activity android:name=".test.Test"/>
+        <activity android:name=".view.AppContent"/>
+        <activity android:name=".view.Main"/>
+        <activity android:name=".view.Search" />
+        <activity android:name=".view.AppManage" android:label="应用管理"/>
+        <activity android:name=".view.Setting" android:label="更多"/>
+        <activity android:name=".view.RankingList" android:label="排行榜"/>
+        <activity android:name=".view.Classification" android:label="分类"/>
+        <activity android:name=".view.Download" android:label="下载管理"/>
+    </application>
+</manifest>

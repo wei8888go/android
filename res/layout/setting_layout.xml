@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F2F2F2"
+        android:clickable="false">
+    <LinearLayout
+            android:orientation="vertical" android:id="@+id/setting_parent"
+            android:layout_width="match_parent"  android:layout_height="match_parent" android:clickable="false">
+
+        <LinearLayout style="@style/setting_item_panel" android:layout_marginTop="@dimen/setting_layout_divide_height">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="应用升级"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"  android:text="12" />
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="应用卸载"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num" />
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="安装包管理"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="应用搬家"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/setting_item_panel" android:layout_marginTop="@dimen/setting_layout_divide_height">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="我的下载"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="我的收藏"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/setting_item_panel" android:layout_marginTop="@dimen/setting_layout_divide_height">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="版本更新"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="意见反馈"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/setting_item_divide_line"/>
+        <LinearLayout style="@style/setting_item_panel">
+            <ImageView style="@style/setting_item_icon"/>
+            <TextView style="@style/setting_item_title" android:text="设置"/>
+            <LinearLayout style="@style/setting_item_operate_panel">
+                <TextView style="@style/setting_item_operate_num"/>
+                <ImageView style="@style/setting_item_operate_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

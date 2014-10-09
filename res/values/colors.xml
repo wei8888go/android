@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_btn_bg">#1CCB88</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="main_tab_radiobutton_checked">#1C1C1C</color>
+    <color name="setting_item_press_color">#CFE5FD</color>
+
+</resources>

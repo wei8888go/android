@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">心悦安卓市场</string>
+    <string name="copyright">CopyRight © 2014 心悦团队 corporation.\nAll Right Reserved</string>
+
+    <string name="download">下载</string>
+    <string name="search_lv_item_size">%1$s次下载\u0020\u0020%2$s</string>
+    
+    <string name="recommend_nav_software">软件</string>
+    <string name="recommend_nav_game">游戏</string>
+    <string name="recommend_nav_install">装机</string>
+    <string name="recommend_nav_topic">专题</string>
+
+
+    <!-- 自定义组件Xlist -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+
+</resources>

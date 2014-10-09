@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/search_lv_item_icon" android:layout_width="60dp" android:layout_height="60dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:layout_toLeftOf="@+id/search_lv_item_downbtn"
+                      android:layout_toRightOf="@id/search_lv_item_icon" android:layout_marginLeft="8dp">
+            <TextView android:id="@+id/search_lv_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#000" android:textStyle="bold" android:textSize="16sp"/>
+            <ImageView android:id="@+id/search_lv_item_rank" android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" android:layout_marginTop="3dp"/>
+            <TextView android:id="@+id/search_lv_item_size" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textColor="#999" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+        <TextView android:id="@+id/search_lv_item_downbtn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true" android:text="@string/download" android:background="@color/default_btn_bg"
+                android:layout_marginRight="5dp" android:padding="5dp" android:textColor="#fff"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/search_nav_lauout" android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal" android:background="#fff">
+        <TextView style="@style/recommend_nav_style" android:text="@string/recommend_nav_software"
+               />
+        <TextView style="@style/recommend_nav_style" android:text="@string/recommend_nav_game"
+                  />
+        <TextView style="@style/recommend_nav_style" android:text="@string/recommend_nav_install"
+               />
+        <TextView style="@style/recommend_nav_style" android:text="@string/recommend_nav_topic"
+               />
+    </LinearLayout>
+
+
+    <include layout="@layout/search_lv"/>
+
+
+</LinearLayout>

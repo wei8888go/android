@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#EAEAEA" android:padding="5dp">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="200dp"
+                android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:background="@drawable/game_btn_normal"
+                android:layout_marginTop="3dp">
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:background="@drawable/list_group_bg" android:text="男生必备" android:textColor="#fff"
+                android:gravity="center_vertical" android:paddingLeft="20dp" android:paddingRight="20dp"
+                android:textStyle="bold"/>
+    </RelativeLayout>
+
+</LinearLayout>
